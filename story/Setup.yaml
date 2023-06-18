@@ -1,0 +1,54 @@
+backgrounds:
+  room: assets/backgrounds/room_day.jpg
+  room_night: assets/backgrounds/room_night.jpg
+  room_night_light: assets/backgrounds/room_night_light.jpg
+  school_hall: assets/backgrounds/school_corridor.jpg
+  school_hall_afternoon: assets/backgrounds/school_corridor_afternoon.jpg
+
+characters:
+  deuzi:
+    displayName: Deuzilene
+    speechColour: "#ca90cf"
+    looks:
+      normal_school: assets/characters/Char3NormalSchool.png
+      normal: assets/characters/Char3Normal.png
+      happy_school: assets/characters/Char3HappySchool.png
+      happy: assets/characters/Char3Happy.png
+      angry_school: assets/characters/Char3AngrySchool.png
+      angry: assets/characters/Char3AngrySchool.png
+  baka:
+    displayName: I R BABOON
+    speechColour: "#ca90cf"
+    looks:
+      normal_school: assets/characters/Char1NormalSchool.png
+      happy_school: assets/characters/Char1HappySchool.png
+      angry_school: assets/characters/Char1AngrySchool.png
+  jair:
+    displayName: Jair
+    speechColour: "#ca90cf"
+    looks:
+      normal_school: assets/characters/Char4NormalSchool.png
+      normal: assets/characters/Char4Normal.png
+      happy_school: assets/characters/Char4HappySchool.png
+      happy: assets/characters/Char4Happy.png
+      angry_school: assets/characters/Char4AngrySchool.png
+      angry: assets/characters/Char4Angry.png
+
+cgs:
+  phone1: assets/objects/phone1.png
+  phone2: assets/objects/phone2.png
+  horse: assets/objects/horse.png
+
+music:
+  rollingCredits: assets/audio/Evan_Schaeffer_-_01_-_Aqueduct.mp3
+  morningBGM: assets/audio/Evan_Schaeffer_-_03_-_Glow.mp3
+sfx:
+  ringtoneSFX: assets/audio/nokia6210-24-elise.mp3
+  ringtoneSFX2: assets/audio/alcatel-top_secret.mp3
+
+extra:
+  spritesheets:
+    rain: assets/ambient/rain.png 17 17
+    sakura: assets/ambient/sakura-petals.png 17 26
+    snowflakes: assets/ambient/snowflakes.png 17 17
+    snowflakes_large: assets/ambient/snowflakes_large.png 64 64
