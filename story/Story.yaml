@@ -12,6 +12,16 @@ start:
       - deuzi says: Well, I'll be here when you're ready!
   - deuzi says normal: If you're new, don't forget to play (bold)the Tutorial(end) game, where me and my friends will show you around the basic features of RenJS.
   - deuzi says happy: And if you already have some experience, you can go ahead and start writing!
+  - hide deuzi:
+  - show baka: happy AT CENTER WITH FADE
+  - baka says normal: Say Hi!
+  - choice:
+      - "Hi!":
+          - baka says happy: That's great! Go ahead!
+      - "No Hi":
+          - baka says: Well, I'll be here when you're ready!
+  - wait: 300
+  - hide baka:
   - scene: endGame
 
 endGame:

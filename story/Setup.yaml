@@ -21,8 +21,11 @@ characters:
     speechColour: "#ca90cf"
     looks:
       normal_school: assets/characters/Char1NormalSchool.png
+      normal: assets/characters/Char1Normal.png
       happy_school: assets/characters/Char1HappySchool.png
+      happy: assets/characters/Char1Happy.png
       angry_school: assets/characters/Char1AngrySchool.png
+      angry: assets/characters/Char1Angry.png
   jair:
     displayName: Jair
     speechColour: "#ca90cf"
