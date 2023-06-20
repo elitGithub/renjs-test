@@ -22,7 +22,16 @@ start:
           - baka says: Well, I'll be here when you're ready!
   - wait: 300
   - hide baka:
+  - scene: hello
+hello:
+  - play ringtoneSFX:
+  - show school_hall: WITH FADE CONTINUE
+  - show jair: angry_school AT CENTER WITH FADE
+  - jair says angry_school: This is my scene
+  - wait: 1000
+  - hide jair:
   - scene: endGame
+
 
 endGame:
   - deuzi says normal: Quickstart over!
